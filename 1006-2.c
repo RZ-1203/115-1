@@ -2,15 +2,15 @@
 int main()
 {
     int score;
-    printf("清輸入成績:");
+    printf("清輸入身高:");
     scanf("%d",&score);
-    if (score>=60)
+    if (score>=120)
     {
-        printf("及格");
+        printf("可以搭乘雲霄飛車");
     }
     else
     {
-       printf("不及格");
+       printf("身高不足，無法搭乘雲霄飛車");
     } 
     return 0;
 }
