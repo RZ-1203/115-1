@@ -12,17 +12,17 @@ int main()
     
         if(b>=80)
         {
-            printf("課程通過");
+            printf("成績通過");
         }
         else
         {
-            printf("課程不通過");
+            printf("出席率不通過");
         }
    }
         
     else
     {
-       printf("課程不通過");
+       printf("成績不及格");
     }
    
     return 0;
